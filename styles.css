@@ -114,7 +114,25 @@ form {
 }
 
 input {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
     padding: 4px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.valid {
+    border-color: #28a745; /* Green color for valid input */
+}
+.invalid {
+    border-color: #dc3545; /* Red color for invalid input */
 }
