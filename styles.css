@@ -28,9 +28,11 @@ body {
 }
 
 .main {
-    background-color: rgb(237, 151, 151);
+    background-color: whitesmoke;
     width: 65vw;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .logo-section {
@@ -43,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 25vh;
 }
 
 img {
@@ -56,4 +58,63 @@ img {
 
 .footer {
     margin-bottom: 15px; 
+}
+
+.head-text {
+    font-size: 1.3rem;
+    margin: 20vh 15vw 5vh 30px;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 2px 4px 8px #888888;
+    color: rgb(38, 34, 34);
+    padding: 20px 30px;
+}
+
+legend {
+    font-size: 1.15rem;
+    /* margin-bottom: 2vh; */
+    grid-column: span 2;
+}
+
+label {
+    font-size: 0.6rem;
+}
+
+button {
+    margin: 30px;
+    background-color: #596D48;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.log-in-text {
+    margin: 0px 30px 20vh 30px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.log-in a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 600px;
+}
+
+input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 4px;
 }
